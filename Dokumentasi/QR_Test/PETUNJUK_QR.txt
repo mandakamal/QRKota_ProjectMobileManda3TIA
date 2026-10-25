@@ -1,0 +1,6 @@
+QR TEST UNTUK APLIKASI QRKOTA
+
+File PNG di folder ini berisi kode untuk diuji dengan menu Scan QR.
+Tampilkan gambar QR di layar komputer lain atau cetak, lalu tekan “Mulai Scan dengan Kamera” pada HP.
+Isi QR menggunakan ID fasilitas yang dikenali aplikasi, misalnya taman-kota.
+Jika hanya menggunakan satu HP, tombol “Coba Simulasi Scan” tetap tersedia untuk menguji riwayat.

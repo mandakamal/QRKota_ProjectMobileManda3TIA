@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/activity_register.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_scan.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_scan.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_history.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/activity_detail.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_home.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/activity_splash_screen.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_search.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/item_facility.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/item_facility.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_profile.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.qrkota.pekanbaru.app-mergeDebugResources-38:/layout/fragment_favorites.xml",
+        "source": "com.qrkota.pekanbaru.app-main-41:/layout/fragment_favorites.xml"
+    }
+]

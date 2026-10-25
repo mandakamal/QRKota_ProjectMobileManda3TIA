@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.QRKota" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/baby_blue</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorOnPrimary">@color/navy</item>
+        <item name="colorSecondary">@color/soft_pink</item>
+        <item name="colorOnSecondary">@color/navy</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:statusBarColor">@color/baby_blue</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/ice_blue</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

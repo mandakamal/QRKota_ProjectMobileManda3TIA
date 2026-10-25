@@ -1,0 +1,9 @@
+VALIDASI STATIS
+- Semua 30 file XML berhasil diparse tanpa kesalahan sintaks XML.
+- Semua referensi R.id dari kode Kotlin ditemukan pada layout/menu XML.
+- Referensi drawable, font, layout, menu, dan warna yang digunakan telah diperiksa.
+- Pemeriksaan parser Kotlin tidak menemukan kesalahan sintaks setelah mengabaikan unresolved reference yang timbul karena Android SDK tidak tersedia pada lingkungan pemeriksaan.
+
+BELUM DAPAT DIVERIFIKASI DI LINGKUNGAN INI
+- Build Android/Gradle sesungguhnya dan runtime emulator/HP tidak dijalankan karena Android SDK dan Gradle tidak tersedia di lingkungan pemeriksaan.
+- Lakukan Gradle Sync, Build > Rebuild Project, lalu Run di Android Studio. Jika ada error, periksa panel Build dan Logcat.

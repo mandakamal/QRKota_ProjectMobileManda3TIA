@@ -1,0 +1,10 @@
+QRKota Pekanbaru — Petunjuk Singkat
+
+1. Ekstrak ZIP ke folder baru.
+2. Android Studio → Open → pilih folder yang berisi settings.gradle.kts.
+3. Tunggu Gradle Sync. Internet diperlukan untuk dependency QR scanner.
+4. Jalankan pada emulator/HP Android.
+5. Akun demo: manda / 12345.
+6. Penjelasan kode dan checklist ada di PETUNJUK_DAN_PENJELASAN.md.
+
+Catatan: scanner QR memakai kamera; tombol simulasi tersedia untuk demo. Data fasilitas dan akun adalah data lokal demonstrasi.
