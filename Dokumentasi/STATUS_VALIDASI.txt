@@ -1,0 +1,10 @@
+STATUS VALIDASI PROYEK REVISI PERTEMUAN 9
+
+Dilakukan pemeriksaan statis pada file XML, nama resource yang dirujuk, file Kotlin, dan daftar dependency.
+Poin tugas 9: ChipGroup, bg_header_wave, GridLayout, Tutorial Screen tersedia.
+
+Batasan pengujian: tidak ada Android SDK/Gradle runtime aktif di lingkungan penyusunan.
+Oleh karena itu sukses Gradle Sync, build APK, dan uji emulator TIDAK bisa diklaim.
+Perlu Build > Rebuild Project pada Android Studio pengguna.
+
+Dihapus: library ZXing scanner kamera, permission CAMERA, registrasi lokal.

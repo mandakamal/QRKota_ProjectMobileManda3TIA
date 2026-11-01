@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="@color/ice_blue">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cari Fasilitas" android:textColor="@color/navy" android:textSize="22sp" android:textStyle="bold" />
+    <EditText android:id="@+id/etSearch" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="12dp" android:background="@drawable/bg_input" android:drawableStart="@drawable/ic_search" android:drawablePadding="8dp" android:hint="Cari nama, kategori, atau lokasi" android:paddingStart="12dp" android:paddingEnd="12dp" android:singleLine="true" android:textColor="@color/navy" android:textColorHint="@color/gray" android:inputType="text" />
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:scrollbars="none">
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupFilter" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:singleLine="true" app:singleSelection="true"
+            app:selectionRequired="true" app:chipSpacingHorizontal="6dp">
+            <com.google.android.material.chip.Chip android:id="@+id/filterAll"
+                style="@style/Widget.MaterialComponents.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="38dp" android:text="Semua" android:textSize="12sp"
+                android:checked="true" android:textColor="@color/chip_text_color"
+                app:chipBackgroundColor="@color/chip_bg_color" app:chipCornerRadius="10dp"
+                app:chipMinHeight="38dp" app:chipStrokeWidth="0dp" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/filterPark"
+                style="@style/Widget.MaterialComponents.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="38dp" android:text="Taman" android:textSize="12sp"
+                android:checked="false" android:textColor="@color/chip_text_color"
+                app:chipBackgroundColor="@color/chip_bg_color" app:chipCornerRadius="10dp"
+                app:chipMinHeight="38dp" app:chipStrokeWidth="0dp" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/filterEducation"
+                style="@style/Widget.MaterialComponents.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="38dp" android:text="Pendidikan" android:textSize="12sp"
+                android:checked="false" android:textColor="@color/chip_text_color"
+                app:chipBackgroundColor="@color/chip_bg_color" app:chipCornerRadius="10dp"
+                app:chipMinHeight="38dp" app:chipStrokeWidth="0dp" app:checkedIconVisible="false" />
+            <com.google.android.material.chip.Chip android:id="@+id/filterMuseum"
+                style="@style/Widget.MaterialComponents.Chip.Filter" android:layout_width="wrap_content"
+                android:layout_height="38dp" android:text="Museum" android:textSize="12sp"
+                android:checked="false" android:textColor="@color/chip_text_color"
+                app:chipBackgroundColor="@color/chip_bg_color" app:chipCornerRadius="10dp"
+                app:chipMinHeight="38dp" app:chipStrokeWidth="0dp" app:checkedIconVisible="false" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+    <ListView android:id="@+id/listSearch" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="8dp" android:divider="@color/line" android:dividerHeight="1dp" />
+</LinearLayout>

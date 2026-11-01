@@ -1,0 +1,8 @@
+Kode fasilitas untuk uji input simulasi QR (tanpa kamera):
+taman-kota
+museum-sang-nila
+jembatan-siak
+perpustakaan-soeman
+masjid-annur
+
+Gambar QR dalam folder ini berasal dari referensi proyek awal. Proyek revisi tidak memindai melalui kamera karena library ZXing dihapus agar sesuai batas materi.

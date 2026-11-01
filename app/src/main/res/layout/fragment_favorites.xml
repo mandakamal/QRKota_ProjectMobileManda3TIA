@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="@color/ice_blue">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Favorit" android:textColor="@color/navy" android:textSize="22sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="8dp" android:text="Simpan tempat yang ingin kamu kunjungi." android:textColor="@color/gray" android:textSize="13sp" />
+    <ListView android:id="@+id/listFavorites" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:divider="@android:color/transparent" android:dividerHeight="2dp" />
+    <TextView android:id="@+id/tvEmptyFavorites" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:gravity="center" android:text="Belum ada favorit. Buka Cari dan tekan lama pada fasilitas untuk menyimpannya." android:textColor="@color/gray" android:visibility="gone" />
+</LinearLayout>

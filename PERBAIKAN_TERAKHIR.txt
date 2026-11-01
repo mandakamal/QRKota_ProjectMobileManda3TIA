@@ -1,0 +1,37 @@
+QRKOTA PEKANBARU - REVISI DAN PEMERIKSAAN TERAKHIR
+
+Ini source project Android Studio, bukan APK siap pasang.
+
+PERBAIKAN YANG DILAKUKAN
+1. Login: kolom username dan password dibuat jelas bisa fokus, kursor terlihat, IME Next/Done; jendela login menyesuaikan keyboard (adjustResize).
+2. ChipGroup: saat kategori dipilih, warnanya ikut berubah agar pilihan aktif jelas. Susunan dan warna awal tetap sama.
+3. Pencarian: kata kunci dari Beranda tetap diperbarui meskipun tab Cari sudah aktif.
+4. targetSdk=34 dengan compileSdk=35 untuk menghindari perubahan edge-to-edge otomatis Android 15 yang dapat mengganggu susunan layar desain awal.
+5. Timeout unduhan Gradle ditambah agar Sync lebih stabil.
+6. Tidak mengubah desain halaman, isi materi, atau menambah library di luar modul.
+
+CARA MEMBUKA
+1. Ekstrak ZIP. Jangan membuka ZIP langsung.
+2. Android Studio > Open > pilih folder MobileManda (yang berisi settings.gradle.kts).
+3. Pastikan SDK Platform 35 & Build Tools terpasang serta Gradle memakai JDK 17.
+4. Internet diperlukan pada Sync pertama untuk plugin/dependency.
+5. File > Sync Project with Gradle Files, lalu Build > Clean Project dan Build > Rebuild Project.
+6. Jalankan di emulator Android API 26 atau lebih baru, lebih disarankan API 34/35.
+
+LOGIN PRAKTIKUM: username manda, password 12345.
+Fitur Scan QR merupakan simulasi input kode fasilitas; bukan scanner kamera.
+
+YANG WAJIB DICEK PADA EMULATOR
+- Login: tap kolom username -> kursor muncul -> huruf yang diketik terbaca.
+  Jika tidak: periksa Device Manager > emulator > Settings > Enable Keyboard Input.
+- Beranda: tampil empat kartu dalam GridLayout (2 kolom) dan header wave.
+- Cari: pilih Semua/Taman/Pendidikan/Museum dan lihat daftar berubah serta warna chip aktif.
+- Tutorial: menu titik tiga > Tutorial QRKota, geser tiga halaman, indikator ikut bergeser.
+- Detail: favorit tersimpan, tombol lokasi membuka WebView (butuh internet).
+- Logout: kembali ke Login; status login tersimpan bila masuk lagi.
+
+BATAS PENGUJIAN
+XML, referensi resource, manifest, dan struktur kode telah diaudit otomatis.
+Tidak tersedia Android SDK maupun Gradle distribution yang dapat dipakai di lingkungan penyusunan,
+sehingga tidak ada bukti build APK atau uji emulator berhasil di sini.
+Jika muncul error, kirim teks Build Output lengkap (bukan cuma ringkasan).
